@@ -2,7 +2,7 @@
 + [This RPUG March meeting on meetup.com](https://www.meetup.com/Raleigh-Puppet-User-Group/events/247520060/)
 
 ## RPUG News
-+ Next meeting is Monday April 2 at Arista Networks in Cary
++ [Next meeting is Wednesday April 11 at Arista Networks in Cary](https://www.meetup.com/Raleigh-Puppet-User-Group/events/248439006/)
 
 ## Puppet ecosystem software announcements and news bits
 + [Puppet Platform 5.4.0 is now available](https://groups.google.com/forum/#!topic/puppet-announce/W8z2t3DD9Q0)
