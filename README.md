@@ -5,11 +5,24 @@
 + [Next meeting is Wednesday April 11 at Arista Networks in Cary](https://www.meetup.com/Raleigh-Puppet-User-Group/events/248439006/)
 
 ## Puppet ecosystem software announcements and news bits
++ [Puppet Platform 5.3.5 is now available](https://groups.google.com/forum/#!topic/puppet-users/PRNka1IeDec)
+  - includes bugfixs in Puppet Agent 5.3.5 & Facter 3.9.5
 + [Puppet Platform 5.4.0 is now available](https://groups.google.com/forum/#!topic/puppet-announce/W8z2t3DD9Q0)
   - Puppet Agent 5.4.0, Facter 3.10.0, Puppet Server 5.2.0, PuppetDB 5.2.0.
 + [Puppet Bolt development progress](https://puppet.com/docs/bolt/0.x/bolt_release_notes.html)
++ [PDK 1.3.0, 1.3.2](https://groups.google.com/forum/#!topic/puppet-users/HoZwCxDU2xA)
+  - PDK version 1.3.0 includes new `pdk convert` feature to adapt your existing Puppet modules for use with PDK. 1.3.2 is a bugfix.
+  - Easier to install and update PDK on Linux systems by adding it to the Puppet agent PC1 and Puppet 5 package repositories
+
++ [PDK 1.4.1](https://groups.google.com/forum/#!topic/puppet-users/JDlLRZw_k_Q)
+  - `pdk update` - With update keep your pdk generated and pdk converted modules up to date with template changes. Keep your modules updated as PDK gets new releases and template changes are added, or if your custom templates are updated.
+  - `pdk build` - build feature to package your module into a forge publish-ready file
+
++ [Puppet Enterprise 2017.3.5 is now available](https://groups.google.com/forum/#!topic/puppet-users/Y7E_16nrig8)
+
 + [Puppet Agent 1.10.10 is now available](https://groups.google.com/forum/#!topic/puppet-announce/fPX36UkG7QA)
   - bug-fix release of Puppet Agent, which updates Puppet to 4.10.10 and Facter to 3.6.9. Puppet 4.10.10
++ [Puppet Users mailing list - "Puppet 4 EOL?"](https://groups.google.com/forum/#!topic/puppet-users/e32hkcnNFh8)
 + Foreman News
     -  [Foreman 1.17.0-RC1 available](https://community.theforeman.org/t/1-17-0-rc1-available/8341)
         + [1.17.0-RC1 Release notes](https://theforeman.org/manuals/1.17/index.html#Releasenotesfor1.17)
@@ -29,14 +42,18 @@ Satellite 6.3 supports Puppet 4 when using a guest operating system of RHEL 7.3 
 
 
 ## Interesting blogs and resources
-+  R.I.Pienaar blog
++ R.I.Pienaar blog
   - [Choria Progress Update](https://www.devco.net/archives/2018/03/05/choria-progress-update.php)
   - [https://www.devco.net/archives/2018/02/25/choria-playbooks-dsl.php](https://www.devco.net/archives/2018/02/25/choria-playbooks-dsl.php)
+
+
 + Mark Wragg blog at wragg.io
   - [Getting started with Puppet on Windows](http://wragg.io/getting-started-with-puppet-on-windows/)
   - [Puppet Variables, Expressions, Facts and Hiera on Windows](http://wragg.io/puppet-variables-expressions-facts-and-hiera-on-windows/)
   - [Using Puppet Modules, Forge and r10k on Windows](http://wragg.io/using-puppet-modules-forge-and-r10k/)
   - [Using Puppet Classes, Roles, Profiles and Templates](http://wragg.io/puppet-classes-roles-profiles-and-templates-on-windows/)
+
+
 + Puppet tips from Example42 blog:
   - [Tip of the Week 50 - Scheduling Puppet resources application](https://www.example42.com/2017/12/11/scheduling_puppet_resources_application/)
   - [Tip of the Week 51 - Acceptance testing on a control-repository using beaker with vagrant and docker](https://www.example42.com/2017/12/18/beaker_with_vagrant_and_docker/)
